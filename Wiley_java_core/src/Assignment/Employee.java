@@ -33,12 +33,12 @@ public class Employee implements Comparator<Employee> {
 
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee("Alice", 50000));
-        employees.add(new Employee("Bob", 60000));
-        employees.add(new Employee("Charlie", 50000));
-        employees.add(new Employee("David", 80000));
-        employees.add(new Employee("Emily", 55000));
-        employees.add(new Employee("Frank", 75000));
+        employees.add(new Employee("Ajay", 50000));
+        employees.add(new Employee("Aman", 60000));
+        employees.add(new Employee("Alka", 50000));
+        employees.add(new Employee("Arun", 80000));
+        employees.add(new Employee("Anamika", 55000));
+        employees.add(new Employee("Shivi", 75000));
         
          Collections.sort(employees, new Employee());
         
