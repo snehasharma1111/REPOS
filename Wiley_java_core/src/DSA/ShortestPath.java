@@ -46,9 +46,7 @@ public class ShortestPath {
 			if(!visited[i] && (minVertex==-1 || distances[i]<distances[minVertex])) {
 				minVertex = i;
 			}
+			return minVertex;
 		}
-		return minVertex;
 	}
 }
-				}
-
